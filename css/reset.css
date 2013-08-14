@@ -113,6 +113,11 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
+ul,
+ol {
+	padding-left: 20px;
+}
+
 ul ul,
 ul ol,
 ol ol,
@@ -313,6 +318,8 @@ hr {
 
 blockquote {
 	border-left: 3px solid #eeeeee;
+	font-size: 1.285em;
+	line-height: 1.25em;
 	padding-left: 20px;
 }
 
@@ -347,12 +354,20 @@ h3,
 h4,
 h5,
 h6 {
-	color: inherit;
 	font-family: inherit;
 	font-weight: bold;
 	line-height: 21px;
 	margin: 10px 0;
 	text-rendering: optimizelegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #222;
 }
 
 h1,
@@ -402,7 +417,7 @@ h4 small {
 }
 
 small {
-	font-size: 0.85em;
+	font-size: 0.785em;
 }
 
 strong {
@@ -438,6 +453,10 @@ cite {
 .container {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.row,
+.container {
 	*zoom: 1;
 }
 

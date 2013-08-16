@@ -2,8 +2,6 @@
 	background: #eee;
 	border-radius: 3px;
 	padding: 10px 0;
-	-webkit-transition: all 0.2s ease;
-	transition: all 0.2s ease;
 }
 
 .show-grid:hover [class*="span"] {
